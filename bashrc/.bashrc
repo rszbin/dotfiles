@@ -132,3 +132,11 @@ getaudio () {
   echo Downloading $1
   yt-dlp $1 --embed-thumbnail -f bestaudio -x --audio-format mp3 --audio-quality 320k
 }
+
+getvideofhd() {
+  yt-dlp -f "bestvideo[height=1080]+bestaudio/best" -o "%(title)s.%(ext)s" $1
+}
+
+getvideomp4() {
+  yt-dlp -f "bestvideo[height=1080]+bestaudio/best" -o "%(title)s.%(ext)s" --merge-output-format mp4 $1
+}
