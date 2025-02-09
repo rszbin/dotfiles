@@ -1,0 +1,29 @@
+ {
+    // Sometimes I have to use VSCode and don't want to enable settings sync
+    "editor.autoClosingBrackets": "beforeWhitespace",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.codeLens": true,
+    "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace",
+    "editor.fontSize": 16,
+    "editor.guides.bracketPairsHorizontal": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.hotExit": "off",
+    "references.preferredLocation": "view",
+    "window.restoreWindows": "none",
+    "workbench.colorTheme": "Solarized Light",
+    "workbench.editor.enablePreview": false,
+    "redhat.telemetry.enabled": false,
+    "yaml.customTags": [],
+    "explorer.confirmDelete": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.quickSuggestions": {
+        "other": "off"
+    },
+    "editor.suggest.showWords": false,
+    "vim.useCtrlKeys": false,
+    "cmake.options.statusBarVisibility": "visible",
+    "files.associations": {
+        "*.yml": "yaml"
+    },
+    "editor.autoClosingDelete": "never",
+}
