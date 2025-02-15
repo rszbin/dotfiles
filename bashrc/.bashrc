@@ -140,3 +140,5 @@ getvideofhd() {
 getvideomp4() {
   yt-dlp -f "bestvideo[height=1080]+bestaudio/best" -o "%(title)s.%(ext)s" --merge-output-format mp4 $1
 }
+
+# !yt-dlp --recode-video "mp4" -P "F:/Downloads/yt-dlp/" "URL" 
