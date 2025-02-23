@@ -1,5 +1,4 @@
  {
-    // Sometimes I have to use VSCode and don't want to enable settings sync
     "editor.autoClosingBrackets": "beforeWhitespace",
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
     "editor.codeLens": true,
@@ -10,7 +9,7 @@
     "files.hotExit": "off",
     "references.preferredLocation": "view",
     "window.restoreWindows": "none",
-    "workbench.colorTheme": "Solarized Light",
+    "workbench.colorTheme": "One Nord",
     "workbench.editor.enablePreview": false,
     "redhat.telemetry.enabled": false,
     "yaml.customTags": [],
@@ -26,4 +25,7 @@
         "*.yml": "yaml"
     },
     "editor.autoClosingDelete": "never",
+    "vim.highlightedyank.enable": true,
+    "vim.vimrc.enable": true,
+    "window.zoomLevel": 1.4
 }

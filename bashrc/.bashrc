@@ -96,6 +96,9 @@ alias l='ls -CF'
 alias python='python3'
 alias restart='shutdown -r now'
 alias poweroff='shutdown now'
+alias tree2='tree -a -L 2'
+alias treelist='tree -a'
+
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -128,16 +131,12 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # Functions
-getaudio () {
+yt-dlp-mp3() {
   echo Downloading $1
   yt-dlp $1 --embed-thumbnail -f bestaudio -x --audio-format mp3 --audio-quality 320k
 }
 
-getvideofhd() {
-  yt-dlp -f "bestvideo[height=1080]+bestaudio/best" -o "%(title)s.%(ext)s" $1
-}
-
-getvideomp4() {
+yt-dlp-mp4() {
   yt-dlp -f "bestvideo[height=1080]+bestaudio/best" -o "%(title)s.%(ext)s" --merge-output-format mp4 $1
 }
 
