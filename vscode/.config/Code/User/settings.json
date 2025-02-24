@@ -27,5 +27,6 @@
     "editor.autoClosingDelete": "never",
     "vim.highlightedyank.enable": true,
     "vim.vimrc.enable": true,
-    "window.zoomLevel": 1.4
+    "window.zoomLevel": 1.4,
+    "workbench.iconTheme": "vs-minimal"
 }
