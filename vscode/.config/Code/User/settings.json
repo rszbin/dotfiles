@@ -28,5 +28,6 @@
     "vim.highlightedyank.enable": true,
     "vim.vimrc.enable": true,
     "window.zoomLevel": 1.4,
-    "workbench.iconTheme": "vs-minimal"
+    "workbench.iconTheme": "vs-minimal",
+    "git.openRepositoryInParentFolders": "always"
 }
