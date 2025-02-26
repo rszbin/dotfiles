@@ -117,12 +117,3 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# Functions
-yt-dlp-audio() {
-  echo Downloading $1
-  yt-dlp $1 --embed-thumbnail -f bestaudio -x --audio-format mp3 --audio-quality 320k
-}
-
-yt-dlp-video() {
-  yt-dlp --embed-thumbnail -f "bestvideo[height=1080]+bestaudio/best" -o "%(title)s.%(ext)s" --merge-output-format mp4 $1
-}
