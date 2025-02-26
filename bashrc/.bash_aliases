@@ -10,3 +10,6 @@ alias poweroff='shutdown now'
 alias tree2='tree -a -L 2'
 alias ltree='tree -a -L 3 | less'
 
+# Ubuntu
+alias upgrade='sudo apt update; sudo apt upgrade -y'
+alias showip='ip -o -4 addr show | awk '{print $2, $4}'
