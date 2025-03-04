@@ -26,3 +26,7 @@ yt-dlp-video() {
 showip() {
     ip -o -4 addr show | awk '{print $2, $4}'
 }
+
+# snap list <package-name>
+# dpkg -l | grep <package-name>
+# flatpak list | grep <package-name>

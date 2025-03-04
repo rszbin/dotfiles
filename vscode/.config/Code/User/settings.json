@@ -1,15 +1,16 @@
  {
-    "editor.autoClosingBrackets": "beforeWhitespace",
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingQuotes": "never",
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
     "editor.codeLens": true,
     "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace",
-    "editor.fontSize": 16,
+    "editor.fontSize": 14,
     "editor.guides.bracketPairsHorizontal": false,
     "explorer.confirmDragAndDrop": false,
     "files.hotExit": "off",
     "references.preferredLocation": "view",
     "window.restoreWindows": "none",
-    "workbench.colorTheme": "One Nord",
+    "workbench.colorTheme": "Nord",
     "workbench.editor.enablePreview": false,
     "redhat.telemetry.enabled": false,
     "yaml.customTags": [],
@@ -29,5 +30,6 @@
     "vim.vimrc.enable": true,
     "window.zoomLevel": 1.4,
     "workbench.iconTheme": "vs-minimal",
-    "git.openRepositoryInParentFolders": "always"
+    "git.openRepositoryInParentFolders": "always",
+    "editor.autoSurround": "never"
 }
